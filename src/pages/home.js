@@ -1,13 +1,17 @@
 import Container from "../components/scripts/container";
 import Header from "../components/scripts/header";
 import Footer from "../components/scripts/footer";
-import BottomNav from "../components/scripts/bottomNav";
+import BottomNav from "../components/scripts/pageNav";
 import "../pages/home.scss";
 
 
 
 
 const Homepage = () => {
+
+    const styles = {
+        marginTop: "10rem"
+    }
 
 
     return (
@@ -32,8 +36,7 @@ const Homepage = () => {
                     </div>
             </div>
             <div>
-        <BottomNav />
-
+        <BottomNav styles={styles} />
             </div>
     </Container>
         

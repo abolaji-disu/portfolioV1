@@ -1,0 +1,22 @@
+@import "../color.scss";
+
+h1 {
+    color: $dark-red;
+    font-weight: 300;
+    font-size: 4rem;
+}
+
+.about-section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-content{
+    overflow: scroll;
+    
+    max-height: 30rem;
+h1 {
+        font-weight: 300;
+        font-size: 4rem;
+    }
+}

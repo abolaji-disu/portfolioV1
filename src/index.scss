@@ -1,5 +1,9 @@
+@import "./color.scss";
 
 
-body{
-    font-family: "Arimo";
+html{
+    max-height: 100vh;
+    min-height: 100vh;
+    overflow: hidden;
+    border: 1px solid blue;
 }

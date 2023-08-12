@@ -1,6 +1,5 @@
 @import "../../color.scss";
 
-
 body{
     font-family: "Arimo";
 }
@@ -8,8 +7,7 @@ body{
 .logo-container{
     display: flex;
     justify-content: space-between;
-    
-
+    margin-top: 3rem;
     .header-icon{
         width: 40px;
     }
@@ -21,7 +19,7 @@ body{
         img{
             margin: 0 5rem 0 0;
         }
-        
+
       
     }
 

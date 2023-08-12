@@ -1,28 +1,42 @@
 import Container from "../components/scripts/container";
 import Header from "../components/scripts/header";
 import Footer from "../components/scripts/footer";
+import BottomNav from "../components/scripts/bottomNav";
+import "../pages/home.scss";
+
+
 
 
 const Homepage = () => {
 
 
     return (
-        <div>
-            <Container>
-                <Header />
+       
+    <Container>
+        <Header />
 
-                <div>
+            <div className="landing-section">
                     <div>
-                        <p>hello, i'm</p>
+                        <h6>hello, i'm</h6>
                         <h1>ABOLAJI DISU</h1>
-                        <h5>Designer / Developer</h5>
-                        <p>A tech </p>
+                        <h5>Digital Designer / Developer,</h5>
+                        <p>A versatile creative professional who thrives at the intersection of design and 
+                            development, I am adept at crafting captivating visuals and building functional 
+                            software solutions. With a background in both graphics design and development, 
+                            I bring a unique blend of artistic vision and technical expertise to every project.
+                            </p>
                     </div>
 
-                    <Footer />
-                </div>
-            </Container>
-        </div>
+                    <div>
+                        <Footer />
+                    </div>
+            </div>
+            <div>
+        <BottomNav />
+
+            </div>
+    </Container>
+        
     )
 }
 

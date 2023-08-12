@@ -1,0 +1,14 @@
+@import "../../color.scss";
+
+.bottom-nav{
+    font-size: 1.5rem;
+    margin-top: 10rem;
+    cursor: pointer;
+
+    padding: 1rem;
+
+    &:hover{
+    background-color: $light-gray;
+    transition: 0.33s ease;
+    }
+}

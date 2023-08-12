@@ -1,0 +1,40 @@
+@import "../color.scss";
+
+.landing-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.landing-section{
+    margin-top: 15.5vh;
+
+    h6 {
+        font-family: "Baskerville";
+        color: $dark-red;
+        font-size: 3rem;
+        font-weight: 200;
+        margin: 0;
+    }
+
+          h1 {
+              font-family: "Baskerville";
+              font-weight: 200;
+              font-size: 7rem;
+              padding: 0;
+              margin: 0;
+          }
+
+          h5 {
+            font-family: "Baskerville";
+            font-size: 2rem;
+            margin-top: 1rem;
+            font-weight: 100;
+          }
+
+          p{
+            width: 70rem;
+            // border: 1px solid red;
+            font-size: 1.34rem;
+            font-family: "Baskerville";
+          }
+}

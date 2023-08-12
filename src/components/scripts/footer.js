@@ -1,7 +1,8 @@
-import {mail} from "../../assets/SVGs/mail.svg";
-import {twitter} from "../../assets/SVGs/twitter.svg";
-import {github} from "../../assets/SVGs/github.svg";
-import {linkedin} from "../../assets/SVGs/linkedin.svg";
+import mail from "../../assets/SVGs/mail.svg"
+import twitter from "../../assets/SVGs/twitter.svg";
+import github from "../../assets/SVGs/github.svg";
+import linkedin from "../../assets/SVGs/linkedin.svg";
+import "../styles/footer.scss";
 
 const Footer = () => {
 

@@ -1,12 +1,10 @@
-import "../styles/container.css";
+import "../styles/container.scss";
 
-const Container = () => {
+const Container = (props) => {
 
     return (
-        <div>
-            
-
-
+        <div className="container">
+            {props.children}
         </div>
     )
 }

@@ -1,0 +1,35 @@
+@import "../../color.scss";
+
+
+body{
+    font-family: "Arimo";
+}
+
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    
+
+    .header-icon{
+        width: 40px;
+    }
+
+    .left-side{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img{
+            margin: 0 5rem 0 0;
+        }
+        
+      
+    }
+
+}
+
+.route-btn{
+        background: $light-gray;
+        padding: 0.88rem;
+        border-radius: 1.2rem;
+        font-size: 1.5rem;
+}

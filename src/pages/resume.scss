@@ -1,0 +1,34 @@
+@import "../variables.scss";
+@import "../color.scss";
+
+
+.resume-header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 20rem;
+
+    h1 {
+    @include header-style
+    
+    }
+
+}
+
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+        color: $light-gray;
+        font-size: 1.5rem;
+    }
+
+    .tools-section{
+        h1{
+            color: $dark-red;
+        }
+    }
+
+}
+

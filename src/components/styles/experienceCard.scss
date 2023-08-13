@@ -1,0 +1,21 @@
+@import "../../color.scss";
+
+.experience-container{
+    h1 {
+        font-size: 1rem;
+        color: $Dim-Gray;
+
+    }
+}
+
+.experience-header{
+    display: flex;
+    justify-content: space-between;
+    
+    // border: 1px solid red;
+
+    h1 {
+        // padding-right: 2.5rem;
+   
+    }
+}

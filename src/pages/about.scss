@@ -1,9 +1,8 @@
 @import "../color.scss";
+@import "../variables.scss";
 
 h1 {
-    color: $dark-red;
-    font-weight: 300;
-    font-size: 4rem;
+    @include header-style;
 }
 
 .about-section{

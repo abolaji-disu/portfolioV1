@@ -1,0 +1,44 @@
+@import "../color.scss";
+@import "../variables.scss";
+
+
+h1 {
+    @include header-style;
+}
+
+.project-container{
+        display: flex;
+        justify-content: space-between;
+
+        .project-content{
+            flex-grow: 1;
+            display: flex;
+            max-width: 80%;
+            justify-content: space-between;
+            overflow: scroll;
+            column-gap: 20px;
+            
+        }
+}
+
+.menu-tab ul {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 4rem;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 5rem;
+
+    li{
+        padding: 0.55rem;
+        &:hover {
+                color: $dark-red;
+                border: 1px solid $dark-red;
+                transition: 0.33s ease;
+                border-radius: 0.55rem;
+                cursor: pointer;
+            }
+    }
+
+  
+}

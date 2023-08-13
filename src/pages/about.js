@@ -64,7 +64,7 @@ const About = () => {
             </div>
         </div>
 
-        <BottomNav />
+        <BottomNav  link={"/project"}/>
         </Container>
     )
 }

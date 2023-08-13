@@ -36,7 +36,7 @@ const Homepage = () => {
                     </div>
             </div>
             <div>
-        <BottomNav styles={styles} />
+        <BottomNav styles={styles} link={"/about"} />
             </div>
     </Container>
         

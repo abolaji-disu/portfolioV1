@@ -39,7 +39,7 @@ const Project = () => {
 
 
                 <Footer />
-                </div>
+            </div>
 
            <PageNav styles={styles} link={"/resume"} />
 

@@ -4,7 +4,7 @@ import About from "./pages/about";
 import Project from "./pages/project";
 import Resume from "./pages/resume";
 import Contact from "./pages/contact";
-
+import Reads from "./pages/reads";
 
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
         <Route path="/project" Component={Project} />
         <Route path="/resume" Component={Resume} />
         <Route path="/contact" Component={Contact} />
+        <Route path="/reads" Component={Reads} />
       </Routes>
     </div>
   );

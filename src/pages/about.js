@@ -12,10 +12,16 @@ import BottomNav from "../components/scripts/pageNav";
 
 const About = () => {
 
+
+    // const styles = {
+    //     marginTop: "5%"
+    // }
+
     return (
         <Container>
             <Header />
             <h1>About</h1>
+        
         <div className="about-section">
             <div className="about-content">
             <AboutCard 
@@ -64,7 +70,7 @@ const About = () => {
             </div>
         </div>
 
-        <BottomNav  link={"/project"}/>
+        <BottomNav   link={"/project"}/>
         </Container>
     )
 }

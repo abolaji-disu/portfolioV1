@@ -10,7 +10,7 @@ import "../pages/home.scss";
 const Homepage = () => {
 
     const styles = {
-        marginTop: "10rem"
+        // marginTop: "15%"
     }
 
 

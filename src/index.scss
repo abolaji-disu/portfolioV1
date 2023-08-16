@@ -2,8 +2,33 @@
 
 
 html{
-    max-height: 100vh;
-    min-height: 100vh;
-    overflow: hidden;
-    border: 1px solid blue;
+    // max-height: 100vh;
+    // min-height: 100vh;
+    // overflow: hidden;
+    // border: 1px solid blue;
 }
+
+::-webkit-scrollbar {
+            width: 1rem;
+            border-radius: 10px;
+            height: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+
+        /* Customize the scrollbar for Firefox */
+        // scrollbar-color: #888 #f1f1f1;
+
+        /* Your other styles */
+        body {
+            overflow: auto; /* Enable scrolling */
+            height: 1000px; /* Content tall enough to make scrollbar visible */
+        }
+        

@@ -40,7 +40,7 @@ h1 {
         &:hover {
                 color: $dark-red;
                 // border: 1px solid $dark-red;
-                transition: 0.33s ease-out;
+                transition: 0.33s cubic-bezier(.01, 1.04, .25, .92);
                 border-radius: 0.55rem;
                 cursor: pointer;
                 font-size: 1.3rem;

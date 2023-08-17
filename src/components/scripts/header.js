@@ -8,10 +8,11 @@ import Modal from "./modal";
 
 const Header = () => {
 
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
 
   const toggleModal = () => {
-    
+      if (showModal) setShowModal(false) 
+        else  setShowModal(true)
   }
 
 
@@ -23,7 +24,7 @@ const Header = () => {
 
         <div className="left-side">
             <img src={Light} alt="light-icon" className="header-icon" />
-            <span className="route-btn">Routes</span>
+            <span className="route-btn" onClick={toggleModal}>Routes</span>
         </div>
 
 

@@ -8,7 +8,7 @@ import "./project.scss"
 const Project = () => {
 
     const styles = {
-        marginTop: "6rem"
+        marginTop: "6%"
     }
 
     return (

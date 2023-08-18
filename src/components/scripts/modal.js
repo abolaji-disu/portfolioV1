@@ -1,26 +1,37 @@
 import modalStyles from "../styles/modal.module.scss";  
-import { useRef } from "react";
-
 
   
-  const Modal = () => {
+  const Modal = (props) => {
 
-    const modalRef = useRef();
 
-    const toggleModalBox = () => {
+    // const toggleModalBox = () => {
     
-        const elemRef = modalRef.current.classList;
-        const containerStyles = modalStyles.modalContainer;
+    //     const elemRefClass = modalRef.current.classList;
+    //     const containerStyles = modalStyles.modalContainer;
 
-        if (!elemRef.contains(containerStyles)) elemRef.add(containerStyles)
-            else  elemRef.remove(containerStyles)
+    //     const elemRef = modalRef.current;
+
+    //     // if (elemRef != null) elemRef.parentNode.removeChild()
+
+
+
+    //     if (!elemRefClass.contains(containerStyles)) elemRefClass.add(containerStyles)
+    //         else  elemRefClass  .remove(containerStyles)
         
 
-    }
+    // }
 
     return (
-        <div ref={modalRef} onClick={toggleModalBox} className={modalStyles.modalContainer}>
-            123456789
+        <div  onClick={props.toggleModal}  className={modalStyles.modalContainer}>
+            <div className="modalRoutes">
+                <ul>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>My Resume</li>
+                    <li>Contact me</li>
+                    <li>My Book collection</li>
+                </ul>
+            </div>
          </div>
     )
   }

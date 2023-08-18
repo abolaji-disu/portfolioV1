@@ -28,7 +28,7 @@ const Header = () => {
         </div>
 
 
-        {showModal && <Modal />}
+        {showModal && <Modal toggleModal={toggleModal} />}
 
 
           </div>

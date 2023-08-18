@@ -1,17 +1,18 @@
-import modalStyles from "../styles/modal.module.scss";  
+import  "../styles/modal.scss";  
 
   
   const Modal = (props) => {
 
     return (
-        <div  onClick={props.toggleModal}  className={modalStyles.modalContainer}>
+        <div  onClick={props.toggleModal}  className={"modalContainer"}>
             <div className="modalRoutes">
                 <ul>
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>My Resume</li>
-                    <li>Contact me</li>
-                    <li>My Book collection</li>
+                     <a href="/"><li>Home</li></a>
+                    <a href="/about"><li>About</li></a>
+                    <a href="/project"><li>Projects</li></a>
+                    <a href="resume"><li>My Resume</li></a>
+                    <a href="contact"><li>Contact me</li></a>
+                    <a href="reads"><li>My Book collection</li></a>
                 </ul>
             </div>
          </div>

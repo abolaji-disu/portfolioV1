@@ -1,5 +1,10 @@
 @import "./color.scss";
 
+//  --breakpoint-xs: 0;
+//  --breakpoint-sm: 576px;
+//  --breakpoint-md: 768px;
+//  --breakpoint-lg: 992px;
+//  --breakpoint-xl: 1200px;
 
 html{
     max-height: 100vh;
@@ -29,6 +34,7 @@ html{
         /* Your other styles */
         body {
             overflow: auto; /* Enable scrolling */
-            height: 1000px; /* Content tall enough to make scrollbar visible */
+            height: 100px; /* Content tall enough to make scrollbar visible */
+            box-sizing: border-box;
         }
         

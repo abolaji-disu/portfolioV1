@@ -13,9 +13,9 @@ import BottomNav from "../components/scripts/pageNav";
 const About = () => {
 
 
-    // const styles = {
-    //     marginTop: "5%"
-    // }
+    const styles = {
+        marginTop: 0
+    }
 
     return (
         <Container>
@@ -70,7 +70,7 @@ const About = () => {
             </div>
         </div>
 
-        <BottomNav   link={"/project"}/>
+        <BottomNav   link={"/project"} styles={styles}/>
         </Container>
     )
 }

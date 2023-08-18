@@ -3,6 +3,7 @@ import Logo from "../../assets/SVGs/my-logo.svg";
 import Light from "../../assets/SVGs/light-icon.svg";
 import { useState } from "react";
 import Modal from "./modal";
+import { Link } from "react-router-dom";
 
  
 
@@ -20,7 +21,10 @@ const Header = () => {
  
 
         <div className="logo-container">
-          <img src={Logo} alt="my-logo" className="header-icon" />
+
+          <Link to={"/"}>
+          <img  src={Logo} alt="my-logo" className="header-icon" />
+          </Link>
 
         <div className="left-side">
             <img src={Light} alt="light-icon" className="header-icon" />

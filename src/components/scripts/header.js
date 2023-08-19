@@ -11,6 +11,12 @@ const Header = () => {
 
   const [showModal, setShowModal] = useState(false);
 
+  const toggleLight = () => {
+    alert("toggling")
+  }
+
+    
+
   const toggleModal = () => {
       if (showModal) setShowModal(false) 
         else  setShowModal(true)
@@ -22,20 +28,19 @@ const Header = () => {
 
         <div className="logo-container">
 
-          <Link to={"/"}>
+        <Link to={"/"}>
           <img  src={Logo} alt="my-logo" className="header-icon" />
-          </Link>
+        </Link>
 
         <div className="left-side">
-            <img src={Light} alt="light-icon" className="header-icon" />
+            <img src={Light} alt="light-icon" className="header-icon" onClick={toggleLight} />
             <span className="route-btn" onClick={toggleModal}>Routes</span>
         </div>
 
 
         {showModal && <Modal toggleModal={toggleModal} />}
 
-
-          </div>
+         </div>
         
     )
 }

@@ -1,6 +1,14 @@
 @import "../color.scss";
 
 
+.my-styled-body {
+  background-color: black;
+  color: white;
+  img{
+    fill: white;
+  }
+}
+
 .landing-section{
       display: flex;
         justify-content: space-between;
